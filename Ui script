@@ -1,0 +1,12 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("DarkBois HUB (BETA)", "DarkTheme")
+ 
+ 
+-- Auto Farm
+ 
+local Tab = Window:NewTab("Auto Farm Function")
+local Section = Tab:NewSection("Auto Farm Function")
+ 
+Section:NewButton("Auto Farm", "DarkBois HUB Not Noob", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/fxX08mPy')()
+end)
